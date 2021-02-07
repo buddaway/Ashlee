@@ -129,7 +129,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 200px;
 
 }
 
@@ -279,7 +279,7 @@ header {
 
 .my-services{
     background-color: var(--clr-dark);
-    background-image: url("../img/services-bg.jpg");
+    background-image: url("Images/Ashlee.JPG");
     background-size: cover;
     background-blend-mode: multiply; /*remove to lighten*/
     color: var(--clr-light);
@@ -372,6 +372,12 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    background-color: var(--clr-dark);
+    background-image: url("Images/1A6A0394.JPG");
+    background-size: cover;
+    background-blend-mode: multiply; /*remove to lighten*/
+    color: var(--clr-light);
+    text-align: center;
 
 }
 
@@ -384,7 +390,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) /*repeat(3,1fr); change the first number in brackets to get a different # columns*/
-    /* max-width can be set to stop from spreading across entire screen at bigger sizes*/
+    /* max-width can be set to stop from spreading across entire screen at bigger sizes*/;
 }
 
 .portfolio__item {
