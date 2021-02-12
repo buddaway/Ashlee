@@ -19,7 +19,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent:#714e99;
+    --clr-accent:#d96134;
 
     --fs-h1: 1.5rem; 
     --fs-h2: 2.25rem;
@@ -66,12 +66,13 @@ img {
     max-width: 100%;
 }
 
-strong{ font-weight: var(--fw-bold) }
+strong{ font-weight: var(--fw-bold);
+ }
 
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
-    background: var(--clr-accent);
+    background: linear-gradient(to bottom right, #d96134, #eadc6f);
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
@@ -93,6 +94,10 @@ h2,
 h3 {
     line-height: 1;
     margin: 0;
+    /* background: -webkit-linear-gradient(#d96134,#eadc6f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
 
 }
 
@@ -119,7 +124,8 @@ h3 {font-size: var(--fs-h3)}
 
 .section__subtitle--intro, 
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: linear-gradient(to bottom right, #d96134, #eadc6f);   
+    /*var(--clr-accent);*/
     padding: .25em 1em ;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -135,7 +141,7 @@ header {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 300px;
 
 }
 
@@ -239,6 +245,7 @@ header {
 
 .intro{
     position: relative;
+    background-image: url(Images\Ashlee.JPG);
     
 }
 
@@ -289,7 +296,7 @@ header {
 }
 
 .section__title--services { 
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative; 
 
 }
