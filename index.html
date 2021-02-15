@@ -61,6 +61,24 @@
         <a href="#testimonials" class="btn">Testimonials</a>
     </section>
 
+    <section class="quote" id="quotey">
+        <script>writeRandomQuote = function () {
+            var quotes = new Array();
+            quotes[0] = "Being yourself is a radical statement";
+            quotes[1] = "I try to instil confidence into every single person that sees me. Sometimes that’s really all they need.";
+            quotes[2] = "When I feel better, I do better and when I do better, I feel better";
+            quotes[3] = "If you're sacrificing your happiness, is it really  success? ";
+            quotes[4] = "Prioritise yourself and don't ever apologise for it";
+            quotes[5] = "The fact that you aren't where you want to be should be motivation enough";
+            quotes[6] = "Remind yourself that you don't have to do what everyone else is doing";
+            quotes[7] = "Execute, put in the work and let your results do the talking"
+            var rand = Math.floor(Math.random()*quotes.length);
+            document.write(quotes[rand]);
+          }
+        writeRandomQuote();
+        </script> 
+    </section>
+
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">About Me</h2>
         <p class="section__subtitle section__subtitle--about">Personal Trainer</p>
@@ -129,6 +147,6 @@
     </ul>
 </footer>
 
-<script src="index.js"></script>
+<script> src="index.js"></script>
     </body>
 </html>

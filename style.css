@@ -341,6 +341,14 @@ header {
     box-shadow: var(--bs);
 }
 
+.quote {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: var(--fs-h3);
+    color: black;
+    text-align: center;
+}
+
 @media(min-width: 600px){
     .about-me{
         display: grid;
