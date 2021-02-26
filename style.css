@@ -31,6 +31,10 @@
 
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 @media (min-width: 800px) {
     :root {
     --fs-h1: 4.5rem; 
@@ -352,7 +356,7 @@ header {
 }
 
 @media(min-width: 600px){
-    .about-me{
+    .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas:
@@ -397,13 +401,12 @@ header {
     text-align: center;
 
 }
-
-@media(max-width: 600px){
-    .my-work{
+/* @media (max-width: 600px){
+    .my-work h2{
         text-align: center;
-        font-size: 80vw;
+        font-size: 150%;
     }
-}
+} */
 
 .section__subtitle--work {
     color: var(--clr-accent);
