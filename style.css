@@ -280,6 +280,11 @@ header {
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
+    .my-work {
+        text-align: center;
+        font-size: 80vw;
+    }
 }
 
 /*My Services section*/
