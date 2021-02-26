@@ -281,10 +281,6 @@ header {
         width: calc(100% + 1.5em);
     }
 
-    .my-work {
-        text-align: center;
-        font-size: 80vw;
-    }
 }
 
 /*My Services section*/
@@ -400,6 +396,13 @@ header {
     color: var(--clr-light);
     text-align: center;
 
+}
+
+@media(max-width: 600px){
+    .my-work{
+        text-align: center;
+        font-size: 80vw;
+    }
 }
 
 .section__subtitle--work {
