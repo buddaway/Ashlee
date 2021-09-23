@@ -200,7 +200,6 @@ header {
 .nav-open .nav{
     transform: translateX(0);
     width: 30%;
-    right: 0; 
 }
 
 .nav-open .nav-toggle {
